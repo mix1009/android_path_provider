@@ -1,14 +1,19 @@
 # android_path_provider
 
-A new flutter plugin project.
+[![pub package](https://img.shields.io/pub/v/android_path_provider.svg)](https://pub.dartlang.org/packages/android_path_provider)
 
-## Getting Started
+Flutter plugin for getting Android directories. (Downloads, Movies, Pictures...). This plugin only works on Android platform.
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Usage
+    void getAndroidPaths() async {
+        var alarmsPath = await AndroidPathProvider.alarmsPath;
+        var dcimPath = await AndroidPathProvider.dcimPath;
+        var documentsPath = await AndroidPathProvider.documentsPath;
+        var downloadsPath = await AndroidPathProvider.downloadsPath;
+        var moviesPath = await AndroidPathProvider.moviesPath;
+        var musicPath = await AndroidPathProvider.musicPath;
+        var notificationsPath = await AndroidPathProvider.notificationsPath;
+        var picturesPath = await AndroidPathProvider.picturesPath;
+        var podcastsPath = await AndroidPathProvider.podcastsPath;
+        var ringtonesPath = await AndroidPathProvider.ringtonesPath;
+    }

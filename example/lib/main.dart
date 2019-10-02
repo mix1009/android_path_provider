@@ -13,7 +13,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _alarmsPath = 'Unknown';
-  String _audiobooksPath = 'Unknown';
+  // String _audiobooksPath = 'Unknown';
   String _dcimPath = 'Unknown';
   String _documentsPath = 'Unknown';
   String _downloadsPath = 'Unknown';
@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
   String _picturesPath = 'Unknown';
   String _podcastsPath = 'Unknown';
   String _ringtonesPath = 'Unknown';
-  String _screenshotsPath = 'Unknown';
+  // String _screenshotsPath = 'Unknown';
 
   @override
   void initState() {
