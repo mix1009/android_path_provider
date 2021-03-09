@@ -1,11 +1,12 @@
 name: android_path_provider
 description: Flutter plugin for getting Android directories. (Downloads, Movies, Pictures...)
-version: 0.1.1
+version: 0.2.0
 #author: ChunKoo Park <mix1009@gmail.com>
 homepage: https://github.com/mix1009/android_path_provider
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: ">=1.20.0"
 
 dependencies:
   flutter:
@@ -17,6 +18,7 @@ dev_dependencies:
 
 flutter:
   plugin:
-    androidPackage: com.mix1009.android_path_provider
-    pluginClass: AndroidPathProviderPlugin
-
+    platforms:
+      android:
+        package: com.example.android_path_provider
+        pluginClass: AndroidPathProviderPlugin

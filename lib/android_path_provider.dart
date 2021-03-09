@@ -8,8 +8,7 @@ class AndroidPathProvider {
 
   /// get alarms path.
   static Future<String> get alarmsPath async {
-    final String version = await _channel.invokeMethod('getAlarmsPath');
-    return version;
+    return await _channel.invokeMethod('getAlarmsPath') ?? '';
   }
 
   // static Future<String> get audiobooksPath async {
@@ -19,56 +18,47 @@ class AndroidPathProvider {
 
   /// get DCIM path.
   static Future<String> get dcimPath async {
-    final String version = await _channel.invokeMethod('getDCIMPath');
-    return version;
+    return await _channel.invokeMethod('getDCIMPath') ?? '';
   }
 
   /// get Documents path.
   static Future<String> get documentsPath async {
-    final String version = await _channel.invokeMethod('getDocumentsPath');
-    return version;
+    return await _channel.invokeMethod('getDocumentsPath') ?? '';
   }
 
   /// get Downloads path.
   static Future<String> get downloadsPath async {
-    final String version = await _channel.invokeMethod('getDownloadsPath');
-    return version;
+    return await _channel.invokeMethod('getDownloadsPath') ?? '';
   }
 
   /// get Movies path.
   static Future<String> get moviesPath async {
-    final String version = await _channel.invokeMethod('getMoviesPath');
-    return version;
+    return await _channel.invokeMethod('getMoviesPath') ?? '';
   }
 
   /// get Music path.
   static Future<String> get musicPath async {
-    final String version = await _channel.invokeMethod('getMusicPath');
-    return version;
+    return await _channel.invokeMethod('getMusicPath') ?? '';
   }
 
   /// get Notifications path.
   static Future<String> get notificationsPath async {
-    final String version = await _channel.invokeMethod('getNotificationsPath');
-    return version;
+    return await _channel.invokeMethod('getNotificationsPath') ?? '';
   }
 
   /// get Pictures path.
   static Future<String> get picturesPath async {
-    final String version = await _channel.invokeMethod('getPicturesPath');
-    return version;
+    return await _channel.invokeMethod('getPicturesPath') ?? '';
   }
 
   /// get Podcasts path.
   static Future<String> get podcastsPath async {
-    final String version = await _channel.invokeMethod('getPodcastsPath');
-    return version;
+    return await _channel.invokeMethod('getPodcastsPath') ?? '';
   }
 
   /// get Ringtones path.
   static Future<String> get ringtonesPath async {
-    final String version = await _channel.invokeMethod('getRingtonesPath');
-    return version;
+    return await _channel.invokeMethod('getRingtonesPath') ?? '';
   }
 
   // static Future<String> get screenshotsPath async {

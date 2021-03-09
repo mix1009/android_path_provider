@@ -58,24 +58,24 @@ class _MyAppState extends State<MyApp> {
       podcastsPath = await AndroidPathProvider.podcastsPath;
       ringtonesPath = await AndroidPathProvider.ringtonesPath;
       // screenshotsPath = await AndroidPathProvider.screenshotsPath;
+
+      setState(() {
+        _alarmsPath = alarmsPath;
+        // _audiobooksPath = audiobooksPath;
+        _dcimPath = dcimPath;
+        _documentsPath = documentsPath;
+        _downloadsPath = downloadsPath;
+        _moviesPath = moviesPath;
+        _musicPath = musicPath;
+        _notificationsPath = notificationsPath;
+        _picturesPath = picturesPath;
+        _podcastsPath = podcastsPath;
+        _ringtonesPath = ringtonesPath;
+        // _screenshotsPath = screenshotsPath;
+      });
     } on PlatformException {}
 
     if (!mounted) return;
-
-    setState(() {
-      _alarmsPath = alarmsPath;
-      // _audiobooksPath = audiobooksPath;
-      _dcimPath = dcimPath;
-      _documentsPath = documentsPath;
-      _downloadsPath = downloadsPath;
-      _moviesPath = moviesPath;
-      _musicPath = musicPath;
-      _notificationsPath = notificationsPath;
-      _picturesPath = picturesPath;
-      _podcastsPath = podcastsPath;
-      _ringtonesPath = ringtonesPath;
-      // _screenshotsPath = screenshotsPath;
-    });
   }
 
   @override
