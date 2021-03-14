@@ -20,5 +20,5 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.android_path_provider
+        package: com.mix1009.android_path_provider
         pluginClass: AndroidPathProviderPlugin
