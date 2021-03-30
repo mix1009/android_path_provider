@@ -1,3 +1,8 @@
+## [0.2.1] - 2021/03/30
+
+* fix plugin reference
+
+
 ## [0.2.0] - 2021/03/09
 
 * null safety
