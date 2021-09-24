@@ -29,5 +29,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+=======
+		<meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+>>>>>>> 1a32900... migrated to v2 and android x
     </application>
 </manifest>
