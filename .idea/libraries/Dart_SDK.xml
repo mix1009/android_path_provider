@@ -1,19 +1,6 @@
 <component name="libraryTable">
   <library name="Dart SDK">
     <CLASSES>
-<<<<<<< HEAD
-      <root url="file:///Users/mix1009/work/flutter/bin/cache/dart-sdk/lib/async" />
-      <root url="file:///Users/mix1009/work/flutter/bin/cache/dart-sdk/lib/collection" />
-      <root url="file:///Users/mix1009/work/flutter/bin/cache/dart-sdk/lib/convert" />
-      <root url="file:///Users/mix1009/work/flutter/bin/cache/dart-sdk/lib/core" />
-      <root url="file:///Users/mix1009/work/flutter/bin/cache/dart-sdk/lib/developer" />
-      <root url="file:///Users/mix1009/work/flutter/bin/cache/dart-sdk/lib/html" />
-      <root url="file:///Users/mix1009/work/flutter/bin/cache/dart-sdk/lib/io" />
-      <root url="file:///Users/mix1009/work/flutter/bin/cache/dart-sdk/lib/isolate" />
-      <root url="file:///Users/mix1009/work/flutter/bin/cache/dart-sdk/lib/math" />
-      <root url="file:///Users/mix1009/work/flutter/bin/cache/dart-sdk/lib/mirrors" />
-      <root url="file:///Users/mix1009/work/flutter/bin/cache/dart-sdk/lib/typed_data" />
-=======
       <root url="file://F:/flutter/bin/cache/dart-sdk/lib/async" />
       <root url="file://F:/flutter/bin/cache/dart-sdk/lib/cli" />
       <root url="file://F:/flutter/bin/cache/dart-sdk/lib/collection" />
@@ -34,7 +21,6 @@
       <root url="file://F:/flutter/bin/cache/dart-sdk/lib/web_audio" />
       <root url="file://F:/flutter/bin/cache/dart-sdk/lib/web_gl" />
       <root url="file://F:/flutter/bin/cache/dart-sdk/lib/web_sql" />
->>>>>>> 1a32900... migrated to v2 and android x
     </CLASSES>
     <JAVADOC />
     <SOURCES />
