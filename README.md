@@ -17,3 +17,4 @@ Flutter plugin for getting Android directories. (Downloads, Movies, Pictures...)
         var podcastsPath = await AndroidPathProvider.podcastsPath;
         var ringtonesPath = await AndroidPathProvider.ringtonesPath;
     }
+
