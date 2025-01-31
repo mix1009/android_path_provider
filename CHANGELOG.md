@@ -1,3 +1,6 @@
+## [0.3.1] - 2025/01/31
+* update Android SDK to 35.
+
 ## [0.3.0] - 2021/09/25
 
 * update kotlin version to work with AGP 7.0
