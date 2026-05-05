@@ -1,3 +1,8 @@
+## [0.3.2] - 2026/05/05
+* Migrate Android build to declarative plugins DSL (AGP 8.12, Kotlin 2.1.21, Gradle 8.13).
+* Bump minimum Dart SDK to >=3.0.0, Flutter to >=3.10.0.
+* Update Java source/target compatibility to VERSION_17.
+
 ## [0.3.1] - 2025/01/31
 * update Android SDK to 35.
 

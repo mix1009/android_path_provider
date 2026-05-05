@@ -1,33 +1,13 @@
-group 'com.mix1009.android_path_provider'
-version '1.0-SNAPSHOT'
-
-buildscript {
-    ext.kotlin_version = '1.5.30'
-    repositories {
-        google()
-        mavenCentral()
-    }
-
-    dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.2'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    }
+// The library plugin build.gradle uses the legacy apply-style (not declarative plugins block)
+// because it is consumed by the Flutter plugin loader, which controls plugin application.
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
 }
-
-rootProject.allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
-apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
 
 android {
     namespace 'com.mix1009.android_path_provider'
-    compileSdkVersion 35
-    // compileSdkVersion flutter.targetSdkVersion
+    compileSdk 35
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -41,16 +21,12 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
+
     defaultConfig {
-        // minSdkVersion 16
-        minSdkVersion flutter.minSdkVersion
+        minSdk 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
-    lintOptions {
-        disable 'InvalidPackage'
     }
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
